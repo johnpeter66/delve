@@ -6,7 +6,7 @@ type AsmInstruction struct {
 	Bytes      []byte
 	Breakpoint bool
 	AtPC       bool
-	Inst       *ArchInst
+	
 }
 
 type AssemblyFlavour int
